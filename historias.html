@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HistAp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png">
+    <style>
+        :root {
+            --primary-color: #3F448C;
+            --secondary-color: #5a61bd;
+            --tertiary-color: #7178df;
+            --quaternary-color: #9ca2ef;
+            --quinary-color: #bbbeef;
+        }
+        .bg-primary {
+            background-color: var(--primary-color) !important;
+        }
+        .btn-primary {
+            background-color: var(--secondary-color) !important;
+        }
+        .btn-primary:hover {
+            background-color: var(--tertiary-color) !important;
+        }
+        footer {
+            background-color: var(--quaternary-color);
+            color: white;
+        }
+        .navbar {
+            background-color: var(--primary-color);
+        }
+        .navbar-brand {
+          color: white;
+          font-size: 2em;
+        }
+
+        .navbar-brand img {
+          width: 50px;
+          height: 50px;
+        }
+        .nav-item a {
+            color: white;
+        }
+        .btn-primary {
+            background-color: var(--quaternary-color);
+            border-color: var(--tertiary-color);
+        }
+        .btn-primary:hover {
+            background-color: var(--quaternary-color);
+            border-color: var(--quaternary-color);
+        }
+        /* Barra de navegación fija */
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+        .header {
+            padding-top: 70px;
+        }
+        /* Estilos para las nuevas columnas */
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        #identificacion {
+            margin-top: 100px; 
+        }
+
+
+    </style>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky">
+        <a class="navbar-brand" href="#">
+            <img src="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            HistAp
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="btn btn-primary" href="index.html">Buscar</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#">Identificación</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#">Antecedentes</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#">Problemática</a>
+              </li>      
+            <li class="nav-item">
+  <a class="btn btn-primary" href="index.html">Guardar</a>
+</li>
+</ul>
+</div>
+</nav>
+
+<section class="container my-5">
+    <h2 id="identificacion" class="text-center mb-3">Datos de Identificación</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+          
+        <div class="form-group">
+          <label for="apellidos">Apellidos</label>
+          <input type="text" class="form-control" id="apellidos">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" class="form-control" id="correo">
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" class="form-control" id="telefono">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="direccion">Dirección</label>
+          <input type="text" class="form-control" id="direccion">
+        </div>
+        <div class="form-group">
+          <label for="ciudad">Ciudad</label>
+          <input type="text" class="form-control" id="ciudad">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <h2 class="text-center mb-3">Antecedentes</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <h2 class="text-center mb-3">Problemática</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <textarea rows="1" class="form-control" id="nombre"></textarea>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+
+<footer class="mt-5 py-3">
+  <div class="container text-center">
+    <p>Número de contacto: +57 324 253 9220</p>
+    <p>Correo electrónico: 123sicologia@gmail.com</p>
+    <p>&copy; Histap - Todos los derechos reservados.</p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
