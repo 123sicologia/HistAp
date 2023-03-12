@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HistAp</title>
+    <title>DSM-5</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png">
     <style>
@@ -56,10 +56,11 @@
             background-color: #bbbeef;
         }
 
+
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
           <img src="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png" width="30" height="30" class="d-inline-block align-top" alt="">
           HistAp
@@ -70,10 +71,10 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="registrarse.html">Registrarse</a>
+            <a class="nav-link" href="registrarse.html"></a>
           </li>          
           <li class="nav-item">
-            <a class="btn btn-primary" href="iniciar.html">Iniciar sesión</a>
+            <a class="btn btn-primary" href="iniciar.html"></a>
           </li>
         </ul>
       </div>
@@ -81,8 +82,8 @@
 
     <!-- Lista desplegable -->
     <!--Trastornos de ansiedad-->
-    <div class="container my-3">
-        <h2 class="text-center">DSM-5</h2>
+    <div class="container my-5">
+        <h2 class="text-center"><br><br>DSM-5</h2>
         <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#ansiedad">Trastornos de ansiedad</button>
 
         <div id="ansiedad" class="collapse">
@@ -186,7 +187,557 @@
         </div>
         
         <!--Trastornos obsesivos-->
-        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Trastorno obsesivo-compulsivo y trastornos relacionados</button>
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Obsesivo-compulsivo y relacionados</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Trastornos trauma-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Relacionados con trauma y factores de estrés</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+        
+        <!--Bipolar-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Bipolar y relacionados</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+        
+        <!--Personalidad-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Personalidad</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Conducta alimentaria-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Conducta alimentaria</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Disfunciones sexuales-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Disfunciones sexuales</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Neurodesarrollo-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Neurodesarrollo</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Otros problemas-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Otros problemas objeto de atención clinica</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Sueño-vigilia-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Sueño-vigilia</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+        <!--Disruptivos del control de impulsos y la conducta-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Disruptivos del control de impulsos y la conducta</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Neurocognitivos-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Neurocognitivos</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Síntomas somáticos-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Síntomas somáticos y relacionados</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Esquizofrenia-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Esquizofrenia</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+        
+        <!--Disociativosw-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Disociativos</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Excresión-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Excresión</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Género-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Género</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Sustancias-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Sustancias y adicciones</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Parafilias-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Parafilias</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Trastornos motores-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Trastornos motores inducidos por medicamentos</button>
+
+        <div id="obsesivos" class="collapse">
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
+            <div id="obs1" class="collapse">
+                <p></p>
+            </div>
+            <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs2">Trastorno (F94.0)</button>
+            <div id="obs2" class="collapse">
+                <p></p>
+            </div>
+        
+            <button id="sub" type="button" class="btn btn-info btn-block text-left" data-toggle="collapse" data-target="#bos3">Trastorno</button>
+
+            <div id="obs3" class="collapse">
+                <button id="criterios-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#criterios">Criterios</button>
+                <div id="criterios" class="collapse">
+                    <p></p>
+                </div>
+    
+                <button id="especificadores-btn" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#especificadores">Especificadores</button>
+                <div id="especificadores" class="collapse">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Otros trastornos mentales-->
+        <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#obsesivos">Otros trastornos y códigos adicionales</button>
 
         <div id="obsesivos" class="collapse">
             <button id="sub" type="button" class="btn btn-info btn-xs btn-block text-left" data-toggle="collapse" data-target="#obs1">Transtorno (F93.0)</button>
