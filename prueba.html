@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista desplegable con sub-elementos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Lista desplegable con sub-elementos</h2>
+  <p>Haz clic en el botón para mostrar la lista:</p>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Trastornos de ansiedad</button>
+  <div id="demo" class="collapse">
+    <button type="button" class="btn btn-info btn-xs" data-toggle="collapse" data-target="#sub1">Transtorno de ansiedad por separación (F93.0)</button><br>
+    <div id="sub1" class="collapse">
+      A. Miedo o ansiedad excesiva e inaprpopiada para el nivel de desarrollo del individuo concerniente a su separación de aquellas personas por las que siente apego, puesta de manifiesto por al menos tres de las siguientes circ<br>
+      Sub-elemento 2
+    </div>
+    <button type="button" class="btn btn-info btn-xs" data-toggle="collapse" data-target="#sub2">Sub-elementos</button><br>
+    <div id="sub2" class="collapse">
+      Sub-elemento 3<br>
+      Sub-elemento 4
+    </div><br>
+  </div>
+</div>
+
+</body>
+</html> 
