@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Registrarse</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png">
     <style>
@@ -15,7 +15,7 @@
             --color5: #bbbeef;
         }
         body {
-            background-color: var(--color1);
+            background-color: var(--color3);
         }
         .container {
             margin-top: 50px;
@@ -24,21 +24,18 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 10%;
+            width: 20%;
         }
         .form-group {
             margin-bottom: 15px;
-            
         }
         .form-control {
             border-radius: 0px;
         }
         .btn-primary {
-            background-color: var(--color2);
-            border-color: var(--color2);
+            background-color: var(--color1);
+            border-color: var(--color1);
             border-radius: 0px;
-            padding-left: 50px;
-            padding-right: 50px;
         }
     </style>
 </head>
@@ -47,25 +44,16 @@
       <img src="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png" alt="HistAp Logo" class="logo">
       <h2 class="text-center" style="color:white;">HistAp</h2><br><br>
       <form action="/register" method="post">
-        <div class="form-group">
-            <input type="password" class="form-control input-lg" placeholder="Nombre" required name='password'>
-        </div>  
-        <div class="form-group">
-            <input type="password" class="form-control input-lg" placeholder="Apellidos" required name='password'>
-        </div>
-        <div class="form-group">
+          <div class="form-group">
               <input type="email" class="form-control input-lg" placeholder="Correo institucional" required autofocus name='email'>
           </div>
 
           <div class="form-group">
               <input type="password" class="form-control input-lg" placeholder="Contraseña" required name='password'>
           </div>
-          
 
-          <a href="home.html" type='submit' class='btn btn-primary btn-lg btn-block'>Registrarse</a><br><br>
-
-          <p style="color: white;">Al crear una cuenta aceptas los <a href="/terms-of-service">términos de servicio</a>.</p>
-        
+          <a href="home.html" type='submit' class='btn btn-primary btn-lg btn-block'>Iniciar sesión</a><br><br>
+          <p style="color: white;">&copy; Histap - Todos los derechos reservados.</p>
       </form> 
     </div> 
 </body>
