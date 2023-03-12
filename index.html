@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HistAp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png">
+    <style>
+        :root {
+            --color1: #3F448C;
+            --color2: #5a61bd;
+            --color3: #7178df;
+            --color4: #9ca2ef;
+            --color5: #bbbeef;
+        }
+        .navbar {
+            background-color: var(--color1);
+        }
+        .navbar-brand {
+          color: white;
+          font-size: 2em;
+        }
+
+        .navbar-brand img {
+          width: 50px;
+          height: 50px;
+        }
+        .nav-link {
+            color: white;
+        }
+        .btn-primary {
+            background-color: var(--color3);
+            border-color: var(--color3);
+        }
+        .btn-primary:hover {
+            background-color: var(--color4);
+            border-color: var(--color4);
+        }
+        footer {
+            background-color: var(--color5);
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+          <img src="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_640.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          HistAp
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="registrarse.html">Registrarse</a>
+          </li>          
+          <li class="nav-item">
+            <a class="btn btn-primary" href="#">Iniciar sesión</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Saludo de bienvenida -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Bienvenido a HistAp</h1>
+                <p>La aplicación proporciona una solución eficaz y segura para la gestión de historias clínicas. Con ella, los usuarios pueden crear informes y remisiones, acceder al DSM y diversas entrevistas clínicas, así como verificar el efecto de los fármacos, todo de manera sencilla y accesible. Asimismo, la aplicación permite enviar pruebas psicotécnicas a los pacientes y recibir los resultados directamente en la plataforma. Con la automatización de tareas como la generación de RIPS y la elaboración del Staff, se ahorra tiempo valioso. Los usuarios también pueden recibir notificaciones de nuevos artículos publicados relacionados con la intervención psicológica, lo que les permite mantenerse actualizados. Por último, la aplicación les permite manejar bases de datos con información de sus pacientes y otros colegas que utilizan la plataforma para el desarrollo de investigaciones.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Cuadros horizontales -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 my-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Título 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget enim vel odio bibendum interdum sit amet eu nulla.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Título 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget enim vel odio bibendum interdum sit amet eu nulla.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Título 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget enim vel odio bibendum interdum sit amet eu nulla.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 my-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Título 4</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget enim vel odio bibendum interdum sit amet eu nulla.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Título 5</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget enim vel odio bibendum interdum sit amet eu nulla.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Título 6</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget enim vel odio bibendum interdum sit amet eu nulla.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+    <footer class="text-center mt-5">
+    <p>Número de contacto: +57 324 253 9220</p>
+    <p>Correo electrónico: 123sicologia@gmail.com</p>
+    <p>&copy; Histap - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
