@@ -1,0 +1,19 @@
+{
+  "name": "histap",
+  "version": "1.0.0",
+  "description": "Aplicación de historias clínicas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123sicologia/HistAp.git"
+  },
+  "author": "Juan Pablo Rojas Henao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/123sicologia/HistAp/issues"
+  },
+  "homepage": "https://github.com/123sicologia/HistAp#readme"
+}
